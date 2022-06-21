@@ -15,4 +15,22 @@ Looking at the summary statistics of all suspension coils, with a variance of 62
 
 ![Lot Summary](https://github.com/NickBaldassarre/MechaCar_Statistical_Analysis/blob/9e7adedeadb88e1528555dc79b90fb9a6a14997f/Resources/LotSummary.png)
 
-All is not as it seems however, as when we look at these same statistics grouped by lot, it is immediately clear that Lot 3 is well above the allowable variance at 170.3 pounds per square inch. Lots 1 and 2 are both well under the dictated variance at 1 pound per sqaure inch and 7.5 pounds per square inch respectively.
+All is not as it seems however, as when we look at these same statistics grouped by lot, it is immediately clear that Lot 3 is well above the allowable variance at 170.3 pounds per square inch. Lots 1 and 2 are both well under the dictated variance at 1 pound per square inch and 7.5 pounds per square inch respectively.
+
+## T-Tests on Suspension Coils
+![T-Test](https://github.com/NickBaldassarre/MechaCar_Statistical_Analysis/blob/594bee419f299290d63c360c600042237fbcb0bf/Resources/T-Test.png)
+
+Looking at the results of the T-Test on all of the suspension coil data, a p-value of 0.06 suggests that the difference in means between all manufacturing lots and the popuplation mean of 1500 is not statistically significant.
+
+![T-Test Lot 1](https://github.com/NickBaldassarre/MechaCar_Statistical_Analysis/blob/594bee419f299290d63c360c600042237fbcb0bf/Resources/T-TestLot1.png)
+
+The results of the T-Test on the first lot show a p-value of 1, which tells us that the means of Lot 1 and the population are virtually equal.
+
+![T-Test Lot 2](https://github.com/NickBaldassarre/MechaCar_Statistical_Analysis/blob/594bee419f299290d63c360c600042237fbcb0bf/Resources/T-TestLot2.png)
+
+The results of the T-Test on the second lot show a p-value of 0.6, which is still very much in line with a difference in means that is not statistically significant.
+
+![T-Test Lot 3](https://github.com/NickBaldassarre/MechaCar_Statistical_Analysis/blob/594bee419f299290d63c360c600042237fbcb0bf/Resources/T-TestLot3.png)
+
+In the results of the T-Test on the third lot, a p-value of 0.04 suggests a difference between the mean of the population and Lot 3 that is statistically significant.
+
