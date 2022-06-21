@@ -34,3 +34,12 @@ The results of the T-Test on the second lot show a p-value of 0.6, which is stil
 
 In the results of the T-Test on the third lot, a p-value of 0.04 suggests a difference between the mean of the population and Lot 3 that is statistically significant.
 
+## Study Design: MechaCar vs Competition
+
+In order to assess how MechaCar performs against the competition, a study will be designed to quantify and compare vehicle characteristics that are important to consumers. Given the recent rise in inflation as well as fuel prices, the metrics that will be looked at for this study will be fuel efficiency and cost.
+
+The null hypothesis is that there is no significant statistical difference between the means of the fuel efficiency of different vehicles based on cost. The alternative hypothesis is that there is a significant statistical difference between the means of the fuel efficiency of different vehicles based on cost.
+
+The statistical test that will be used to measure this will a one-way ANOVA test. This tests the means of a single dependent variable (fuel efficiency) across a single independent variable (cost) with multiple groups (manufacturers.)
+
+The data we will need to collect in order to run these tests will be the manufacturer, average fuel efficiency and cost of each vehicle.
